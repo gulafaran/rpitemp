@@ -20,7 +20,6 @@ void safefree(void **pp) {
 char *get_tmp(char *path) {
   FILE *fp;
   char buffer[pbufsize];
-  char *dest;
   size_t bytes_read;
 
   fp = fopen(path, "r");
